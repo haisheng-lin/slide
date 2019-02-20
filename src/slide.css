@@ -6,11 +6,12 @@
 }
 .slide-previous {
   position: absolute;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
   top: 50%;
-  left: 20px;
+  left: 16px;
+  transform: translateY(-50%);
   cursor: pointer;
   text-align: center;
   font-weight: bold;
@@ -20,11 +21,12 @@
 }
 .slide-next {
   position: absolute;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
   top: 50%;
-  right: 20px;
+  right: 16px;
+  transform: translateY(-50%);
   cursor: pointer;
   text-align: center;
   font-weight: bold;
