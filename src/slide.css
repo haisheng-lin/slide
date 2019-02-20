@@ -1,0 +1,38 @@
+.slide {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.slide-previous {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  top: 50%;
+  left: 20px;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 50%;
+  background: white;
+}
+.slide-next {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  top: 50%;
+  right: 20px;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 50%;
+  background: white;
+}
+.slide .slide-item img {
+  display: block;
+  width: 100%;
+}

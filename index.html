@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>幻灯片效果展示</title>
+  <link rel="stylesheet" href="src/slide.css">
+  <script src="src/slide.js"></script>
+</head>
+<body>
+  <div id="image-slider"></div>
+  <script>
+    const images = [
+      'http://ww2.sinaimg.cn/mw690/79c57e13jw1ehshhd53k1j20r80a0q40.jpg',
+      'http://ww1.sinaimg.cn/mw690/79c57e13jw1ehshhcrtv5j20r80a00v6.jpg',
+      'http://ww4.sinaimg.cn/mw690/79c57e13jw1ehshhcdxwyj20r80a0go7.jpg',
+    ];
+    const sliderEle = document.querySelector('#image-slider');
+    new Slide({
+      target: sliderEle,
+      items: images,
+      mode: 'random',
+    });
+  </script>
+</body>
+</html>
